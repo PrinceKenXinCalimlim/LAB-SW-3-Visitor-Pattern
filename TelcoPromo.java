@@ -5,7 +5,7 @@ public class TelcoPromo {
         TelcoSubscription ditto = new Telco(8, 400, "Ditto", true);
 
         UsagePromo promo = new TelcoAllowance();
-        UnliCallOffer unli = new UnliCallTextPackage();    
+        UnliCallsTextOffer unli = new UnliCallTextPackage();    
 
         System.out.println("Smart Data Usage Offer and price: " + promo.showAllowance(smart.getTelcoName(), smart.getPromoPrice()));
         System.out.println("Globe Data Usage Offer and price: " + promo.showAllowance(globe.getTelcoName(), globe.getPromoPrice()));

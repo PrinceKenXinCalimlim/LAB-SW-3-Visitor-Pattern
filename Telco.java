@@ -16,7 +16,7 @@ public class Telco implements TelcoSubscription{
         return promo.showAllowance(telcoName, price);
     }
 
-    public String accept(UnliCallOffer offer, boolean unliCallText) {
+    public String accept(UnliCallsTextOffer offer, boolean unliCallText) {
         return offer.showUnliCallsTextOffer(telcoName, unliCallText);
     }
 
